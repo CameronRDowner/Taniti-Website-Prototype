@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Taniti</title>
+  
+  
+  
+      <link rel="stylesheet" href="home.css">
+
+  
+</head>
+
+<body>
+<!-- Nav Bar -->
+<header>
+  <nav id="navbar">
+      <img id="navbar-logo" src="taniti_logo.jpg" alt="logo of a palm tree">
+    <ul>
+      <li><a class="nav-link" href="activities.html">Activities</a></li>
+      <li><a class="nav-link" href="travel_info.html">Travel Info</a></li>
+      <li><a class="nav-link" href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- Main section -->
+  <main>
+<img id="home-photo" src="homepage-image.jpg" alt="picture of a village on the ocean with mountains behind it">
+<form action="post"></form>
+<div id="upcoming-events-container">
+  <h4 style="padding: 0.5rem">Upcoming Events</h4>
+  <div class="upcoming-events-items">
+  <input type="checkbox" id="event1" name="upcoming-events" class="upcoming-events-checkboxes" checked>
+  <label id="event1date"class="upcoming-events-date-label" for="event1Label"></label>
+  <label id="event1Label" for="event1"></label>
+  </div>
+  <div class="upcoming-events-items">
+    <input type="checkbox" id="event2" name="upcoming-events" class="upcoming-events-checkboxes" checked>
+    <label id="event2date"class="upcoming-events-date-label" for="event2Label"></label>
+    <label id="event2Label" for="event2"></label>
+  </div>
+    <div class="upcoming-events-items">
+      <input type="checkbox" id="event3" name="upcoming-events" class="upcoming-events-checkboxes" checked>
+      <label id="event3date"class="upcoming-events-date-label" for="event3Label"></label>
+      <label id="event3Label" for="event3"></label>
+      </div>
+      <div class="upcoming-events-items">
+        <input type="checkbox" id="event4" name="upcoming-events" class="upcoming-events-checkboxes" checked>
+        <label id="event4date"class="upcoming-events-date-label" for="event4Label"></label>
+        <label id="event4Label" for="event4">Event 4</label>
+        </div>
+        <script src="upcoming_events_widget.js"></script>
+</div>
+<input type="text" id="upcoming-events-textbox" placeholder="enter your email address">
+<input id="upcoming-events-submit-button" type="submit" value="Send me more info about these events">
+</form>
+    
+
+
+
+  
+  </main>
+
+  
+<footer>
+<h6 style="padding-right: 1rem">Copyright Taniti</h6>
+
+
+</footer>
+</body>
+
+</html>

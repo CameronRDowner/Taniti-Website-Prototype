@@ -1,0 +1,92 @@
+    
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+  text-align: center;
+  margin: 0 auto;
+  }
+/** nav bar **/  
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  Height: 4rem;
+  background-color: #ffffff;
+  z-index: 1;
+}
+header nav img {
+  width: 3.5rem;
+  height: auto;
+  float: left;
+}
+#navbar ul {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  padding: 5rem;
+  color: 	#336699;
+  font-weight: 700;
+  bottom: -1.5rem;
+}
+nav ul li a:hover {
+  color: #FFCC66;
+}
+/**main **/
+#home-photo {
+  height: auto;
+  max-width: 100%;
+}
+#upcoming-events-container {
+  border: 1px solid #464646;
+  margin: auto;
+  width: 25rem;
+}
+.upcoming-events-items {
+  border-top: 1px solid #464646;
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+}
+.upcoming-events-checkboxes {
+  background-color: #eee;
+  padding-right: 0.1rem;
+  border: 1px solid black;
+}
+.upcoming-events-date-label {
+padding: 0.25rem;
+border: 1px solid black;
+text-align: center;
+background: #338DFF;
+}
+#upcoming-events-textbox {
+  display: block;
+  margin: 0.4rem auto 0.4rem auto;
+  width: 16rem;
+  height: 1.3rem;
+  padding: 0.25rem;
+}
+#upcoming-events-submit-button {
+padding: 0.75rem;
+margin: 0.4rem auto 0.8rem auto;
+background-color: #FFCC66;
+color: black;
+font-family: Arial;
+font-weight: 700;
+border: none;
+display: block;
+}
+
+footer {
+  height: 2rem;
+  width: 100%;
+  text-align: right;
+}
