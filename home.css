@@ -84,7 +84,19 @@ font-weight: 700;
 border: none;
 display: block;
 }
-
+#new-activities-container {
+  border: 1px solid #464646;
+  width: 26rem;
+  height: 13rem;
+}
+.new-activities-items {
+  padding: 0.45rem;
+}
+#home-widget-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 footer {
   height: 2rem;
   width: 100%;
